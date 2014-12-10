@@ -13,6 +13,9 @@
 		7015B07C1A379D2B00934D36 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7015B07B1A379D2B00934D36 /* Images.xcassets */; };
 		7015B07F1A379D2B00934D36 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7015B07D1A379D2B00934D36 /* LaunchScreen.xib */; };
 		7015B08B1A379D2B00934D36 /* PostCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7015B08A1A379D2B00934D36 /* PostCardTests.swift */; };
+		703181D51A37C9F200B02AD4 /* SagradaFamilia.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 703181D41A37C9F200B02AD4 /* SagradaFamilia.jpeg */; };
+		703181D71A37D17000B02AD4 /* Screen Shot 2014-11-07 at 8.28.46 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = 703181D61A37D17000B02AD4 /* Screen Shot 2014-11-07 at 8.28.46 AM.png */; };
+		703181DB1A37E86000B02AD4 /* Wonderful Blue Ocean iPhone 5 Wallpaper .jpg in Resources */ = {isa = PBXBuildFile; fileRef = 703181DA1A37E86000B02AD4 /* Wonderful Blue Ocean iPhone 5 Wallpaper .jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		7015B0841A379D2B00934D36 /* PostCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7015B0891A379D2B00934D36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7015B08A1A379D2B00934D36 /* PostCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCardTests.swift; sourceTree = "<group>"; };
+		703181D41A37C9F200B02AD4 /* SagradaFamilia.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SagradaFamilia.jpeg; sourceTree = "<group>"; };
+		703181D61A37D17000B02AD4 /* Screen Shot 2014-11-07 at 8.28.46 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2014-11-07 at 8.28.46 AM.png"; sourceTree = "<group>"; };
+		703181DA1A37E86000B02AD4 /* Wonderful Blue Ocean iPhone 5 Wallpaper .jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Wonderful Blue Ocean iPhone 5 Wallpaper .jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +96,9 @@
 		7015B0721A379D2B00934D36 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				703181DA1A37E86000B02AD4 /* Wonderful Blue Ocean iPhone 5 Wallpaper .jpg */,
+				703181D61A37D17000B02AD4 /* Screen Shot 2014-11-07 at 8.28.46 AM.png */,
+				703181D41A37C9F200B02AD4 /* SagradaFamilia.jpeg */,
 				7015B0731A379D2B00934D36 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,8 +202,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				7015B07A1A379D2B00934D36 /* Main.storyboard in Resources */,
+				703181D51A37C9F200B02AD4 /* SagradaFamilia.jpeg in Resources */,
 				7015B07F1A379D2B00934D36 /* LaunchScreen.xib in Resources */,
+				703181D71A37D17000B02AD4 /* Screen Shot 2014-11-07 at 8.28.46 AM.png in Resources */,
 				7015B07C1A379D2B00934D36 /* Images.xcassets in Resources */,
+				703181DB1A37E86000B02AD4 /* Wonderful Blue Ocean iPhone 5 Wallpaper .jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +419,7 @@
 				7015B0901A379D2B00934D36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7015B0911A379D2B00934D36 /* Build configuration list for PBXNativeTarget "PostCardTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +428,7 @@
 				7015B0931A379D2B00934D36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
